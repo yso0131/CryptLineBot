@@ -1,6 +1,7 @@
 # CryptLineBot
 
 仮想通貨の価格を返信するLine Botになります。
+
 Line ID : @024ypizr
  
  
@@ -23,6 +24,7 @@ lineメッセージにて入力した通貨の価格を確認できるBotとな�
 # Features
  
 line appにて名前を入力するだけで通貨の価格を取得することが可能です。
+
 サイト内から確認したい通貨を探す必要がなく必要な情報のみ取得できます。
  
 # Requirement

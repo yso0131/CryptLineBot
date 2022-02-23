@@ -1,0 +1,13 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "CryptLineApp"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-mkqvgaqp6myz"
+s3_prefix = "CryptLineApp"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "LineChannelAccessToken=\"mBeMKsLyEf3DrFIAXAOKE5e701R9tAXCEegXUrGgdRdZ8xr1GbwaQAs/7kMmEwxfJD78WQu2dJTDL+NxY/Lpe9dI1s6jUOuQkasyblzAXeQOmrQDnCTGAoWordIn7J/JzrdBKjLa8bjwDDqKOBdpZQdB04t89/1O/w1cDnyilFU=\" LineChannelSecret=\"893b223ab891557fbbc8160e92c5d71f\" CoinMarketApi=\"0ee3db9f-0cc4-45b6-b138-ea1b06ae0cfb\""
+image_repositories = []
+confirm_changeset = true

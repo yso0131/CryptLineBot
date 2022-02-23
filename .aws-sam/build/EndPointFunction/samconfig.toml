@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "linebot-app-01"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-mkqvgaqp6myz"
+s3_prefix = "linebot-app-01"
+region = "ap-northeast-1"
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+parameter_overrides = "LineChannelAccessToken=\"kUUJ/tet96AIgNnsDwr/HH/OGyYPqQbZVFwR9d+ER4xvvXChHYGCYT6FxF/lUn8olRdVJJWbbG/iCnMOEMZQE1JOkNRRrh+kuzaJf4OyG5gZXib43fh5pxFkDzGnce5y2Nk6R8qE5X3g+TxoDLjYLgdB04t89/1O/w1cDnyilFU=\" LineChannelSecret=\"5584a40002687a8acf8dcc8567425e01\""
+image_repositories = []

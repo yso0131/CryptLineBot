@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+line-bot-sdk = "*"
+boto3 = "*"
+requests = "*"
+urllib3 = "*"
+beautifulsoup4 = "*"
+bs4 = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"

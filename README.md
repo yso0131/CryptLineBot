@@ -29,13 +29,12 @@ line appにて名前を入力するだけで通貨の価格を取得すること
  
 # Requirement
  
-"hoge"を動かすのに必要なライブラリなどを列挙する
  
 * python 3.9.7
 * line-bot-sdk
 * boto3
 * requests
-* 
+Lineアカウントのシークレットキー、CoinMarketAPIが必要になります。
 
 
 # Installation

@@ -34,6 +34,7 @@ line appにて名前を入力するだけで通貨の価格を取得すること
 * line-bot-sdk
 * boto3
 * requests
+
 Lineアカウントのシークレットキー、CoinMarketAPIが必要になります。
 
 
